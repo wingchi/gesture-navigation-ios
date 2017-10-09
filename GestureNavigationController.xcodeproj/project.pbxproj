@@ -13,6 +13,7 @@
 		0C64B03D1F8AE6790027F239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C64B03C1F8AE6790027F239 /* Assets.xcassets */; };
 		0C64B0401F8AE6790027F239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C64B03E1F8AE6790027F239 /* LaunchScreen.storyboard */; };
 		0C64B04B1F8AE6790027F239 /* GestureNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C64B04A1F8AE6790027F239 /* GestureNavigationControllerTests.swift */; };
+		0C64B0561F8B0DF40027F239 /* GestureNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C64B0551F8B0DF40027F239 /* GestureNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0C64B0461F8AE6790027F239 /* GestureNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C64B04A1F8AE6790027F239 /* GestureNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureNavigationControllerTests.swift; sourceTree = "<group>"; };
 		0C64B04C1F8AE6790027F239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C64B0551F8B0DF40027F239 /* GestureNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0C64B0351F8AE6790027F239 /* AppDelegate.swift */,
 				0C64B0371F8AE6790027F239 /* ViewController.swift */,
 				0C64B0391F8AE6790027F239 /* Main.storyboard */,
+				0C64B0551F8B0DF40027F239 /* GestureNavigationController.swift */,
 				0C64B03C1F8AE6790027F239 /* Assets.xcassets */,
 				0C64B03E1F8AE6790027F239 /* LaunchScreen.storyboard */,
 				0C64B0411F8AE6790027F239 /* Info.plist */,
@@ -201,6 +204,7 @@
 			files = (
 				0C64B0381F8AE6790027F239 /* ViewController.swift in Sources */,
 				0C64B0361F8AE6790027F239 /* AppDelegate.swift in Sources */,
+				0C64B0561F8B0DF40027F239 /* GestureNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
