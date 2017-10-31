@@ -16,6 +16,7 @@
 		0C64B0591F8B2B4F0027F239 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C64B0571F8B2B4F0027F239 /* NextViewController.swift */; };
 		0C64B05A1F8B2B4F0027F239 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C64B0581F8B2B4F0027F239 /* NextViewController.xib */; };
 		0C64B05C1F8B2E4F0027F239 /* GestureNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C64B05B1F8B2E4F0027F239 /* GestureNavigationControllerTests.swift */; };
+		0CBDD2F41FA8B63800F926DF /* CustomNavigationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDD2F31FA8B63800F926DF /* CustomNavigationAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		0C64B0571F8B2B4F0027F239 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		0C64B0581F8B2B4F0027F239 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		0C64B05B1F8B2E4F0027F239 /* GestureNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureNavigationControllerTests.swift; sourceTree = "<group>"; };
+		0CBDD2F31FA8B63800F926DF /* CustomNavigationAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				0C64B03C1F8AE6790027F239 /* Assets.xcassets */,
 				0C64B03E1F8AE6790027F239 /* LaunchScreen.storyboard */,
 				0C64B0411F8AE6790027F239 /* Info.plist */,
+				0CBDD2F31FA8B63800F926DF /* CustomNavigationAnimationController.swift */,
 			);
 			path = GestureNavigationController;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				0C64B0591F8B2B4F0027F239 /* NextViewController.swift in Sources */,
 				0C64B0361F8AE6790027F239 /* AppDelegate.swift in Sources */,
 				0C64B0561F8B0DF40027F239 /* GestureNavigationController.swift in Sources */,
+				0CBDD2F41FA8B63800F926DF /* CustomNavigationAnimationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
