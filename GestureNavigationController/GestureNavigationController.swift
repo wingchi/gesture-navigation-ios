@@ -25,10 +25,14 @@ class GestureNavigationController: UINavigationController {
     var nextVC: UIViewController? = nil
     var panDirection: PanDirection? = nil
     
+    let customNavigationAnimationController = CustomNavigationAnimationController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
         view.addGestureRecognizer(panGestureRecognizer)
+        
+        delegate = customNavigationAnimationController
     }
     
     @objc private func handlePanGesture(sender: UIPanGestureRecognizer) {
